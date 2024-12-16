@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Rubik-Medium;
+    src: url(../fonts/Rubik-Medium.ttf);
+}
+
+@font-face {
+    font-family: Rubik-Regular;
+    src: url(../fonts/Rubik-Regular.ttf);
+}
+
+.container{
+    width: 1180px;
+    height: 100vh;
+    /* background-color: cornflowerblue; */
+    margin: 0 auto;
+}
+
+.header{
+    height: 40px;
+    padding-top: 32px;
+    /* background-color: coral; */
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header__logo{
+    display: flex;
+    align-items: center;
+}
+
+.header__logo_name{
+    font-family: Rubik-Medium;
+    margin-left: 11.88px;
+    font-size: 20px;
+    color: #333333;
+
+}
+
+.header__search{
+    display: flex;
+    align-items: center;
+}
+
+.header__search_input{
+    width: 320px;
+    height: 25px;
+    border: none;
+    border-bottom: 1px solid #333333;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: Rubik-Medium;
+}
+
+.header__search_input:focus{
+    outline: none;
+}
+
+.header__search_input:-moz-placeholder{
+    font-family: Rubik-Regular;
+    color: #828282;
+
+}
+
+.header__search_btn{
+    font-family: Rubik-Medium;
+    font-weight: 500;
+    font-size: 16px;
+    color: #E5261E;
+    border: none;
+    background: none;
+    margin-left: 32px;
+}
+
+.header__auth_btn{
+    font-family: Rubik-Medium;
+    width: 113px;
+    height: 38px;
+    background-color: #E5261E; 
+    border: none;
+    color: #ffffff;
+    font-size: 16px;
+    border-radius: 4px;
+
+}
